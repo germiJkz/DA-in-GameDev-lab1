@@ -35,14 +35,14 @@
 - ✨Magic ✨
 
 ## Цель работы
-Ознакомиться с основными операторами зыка Python на примере реализации линейной регрессии.
+Ознакомиться с основными операторами языка Python на примере реализации линейной регрессии.
 
 ## Задание 1
 ### Написать программы Hello Wold на Python и Unity
 - Для Python в отчёте привести скриншоты с демострацией сохранения докумета google.colab на свой диск с запуском программы, выводящей Hello World.
 - Для Unity в отчёте привести скриншоты вывод сообщения Hello World в консоль.
 
-Hello Wold на Python см. рис. 1-3
+Hello Wold на Python см. рис. 1-3, 
 Hello Wold на Unity см. рис. 5-6
 
 Рис. 1:
@@ -60,16 +60,8 @@ Hello Wold на Unity см. рис. 5-6
 Рис. 6:
 ![image](https://user-images.githubusercontent.com/103726508/192154384-594ac67c-3cf2-47aa-9a68-cab8398ad7c3.png)
 
-
-
-
-
-
-
-
-
-
-### Пошагово выполнить каждый пункт раздела "ход работы" с описанием и примерами реализации задач
+## Задание 2
+### Пошагово выполнить каждый пункт раздела "ход работы" с описанием и примерами реализации задачи по теме лабораторной работы
 Ход работы:
 - Произвести подготовку данных для работы с алгоритмом линейной регрессии. 10 видов данных были установлены случайным образом, и данные находились в линейной зависимости. Данные преобразуются в формат массива, чтобы их можно было вычислить напрямую при использовании умножения и сложения.
 
@@ -95,8 +87,37 @@ plt.scatter(x,y)
 
 - Определите связанные функции. Функция модели: определяет модель линейной регрессии wx+b. Функция потерь: функция потерь среднеквадратичной ошибки. Функция оптимизации: метод градиентного спуска для нахождения частных производных w и b.
 
+```py
 
-## Задание 2
+In [ ]:
+#The basic linear regressiion model is wx+ b? and since this is a two-dimensional space? the model is ax+ b
+def model(a, b, x):
+    return a * x +b
+
+#Tahe most commonly used loss function of linear regression model is the loss function of mean variance difference
+def loss_function(a, b, x, y):
+    num = len(x)
+    prediction =model(a, b, x)
+    return (0.5/num)*(np.square(prediction-y)).sum()
+
+#The optimization function mainly USES partial derivatives to update two parameters a and b
+def optimize(a, b, x, y):
+    num = len(x)
+    prediction = model(a, b, x)
+    da = (1.0/num) * ((prediction - y)*x).sum()
+    db = (1.0/num) * ((prediction - y).sum())
+    a = a - Lr*da
+    b = b - Lr*db
+    return a, b
+
+#iterated function? return a and b
+def iterate(a, b, x, y, times):
+    for i in range(times):
+        a,b=optimize(a, b, x, y)
+    return a,b
+```
+
+
 ### Должна ли величина loss стремиться к нулю при изменении исходных данных? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ.
 
 - Перечисленные в этом туториале действия могут быть выполнены запуском на исполнение скрипт-файла, доступного [в репозитории](https://github.com/Den1sovDm1triy/hfss-scripting/blob/main/ScreatingSphereInAEDT.py).
