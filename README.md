@@ -67,7 +67,6 @@ Hello Wold на Unity см. рис. 5-6
 
 ```py
 
-In [ ]:
 #Import the required modules, numpy for calculation, and Matplotlib for drawing
 import numpy as np
 import matplotlib.pyplot as plt
