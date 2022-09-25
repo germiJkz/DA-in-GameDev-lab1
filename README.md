@@ -41,7 +41,29 @@
 ### Написать программы Hello Wold на Python и Unity
 - Для Python в отчёте привести скриншоты с демострацией сохранения докумета google.colab на свой диск с запуском программы, выводящей Hello World.
 - Для Unity в отчёте привести скриншоты вывод сообщения Hello World в консоль.
-- 
+
+Hello Wold на Python см. рис. 1-3
+Hello Wold на Unity см. рис. 5-6
+
+Рис. 1:
+![image](https://user-images.githubusercontent.com/103726508/192154249-48425269-17d5-4698-926a-36006d2378fc.png)
+
+Рис. 2:
+![image](https://user-images.githubusercontent.com/103726508/192154329-49737b79-ced4-4cdc-bfae-7cf21667b2d4.png)
+
+Рис. 3:
+![image](https://user-images.githubusercontent.com/103726508/192154350-da65cac7-8e5d-4374-8324-cc23ae468e6c.png)
+
+Рис. 5:
+![image](https://user-images.githubusercontent.com/103726508/192154367-b50a9ca4-489f-4ec5-9c52-5fd0d1067075.png)
+
+Рис. 6:
+![image](https://user-images.githubusercontent.com/103726508/192154384-594ac67c-3cf2-47aa-9a68-cab8398ad7c3.png)
+
+
+
+
+
 
 
 
