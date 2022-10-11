@@ -47,29 +47,82 @@ sheets и google drive.
 ## Задание 2
 ### Реализовать запись в Google-таблицу набора данных, полученных
 с помощью линейной регрессии из лабораторной работы № 1
+
+В первой л.р. требовалось менять кол-во итераций от 1 до 5, и поменять на 10000. Кол-во итераций покащывается в первом столбце. После я меняю значение Lr и отображаю его значение в первом столбце Код, выполняющий эту задачу, и скрин таблицы приведёны ниже:
 ```py
 
-#Import the required modules, numpy for calculation, and Matplotlib for drawing
+import gspread
 import numpy as np
-import matplotlib.pyplot as plt
-#This code is for jupyter Notebook only
-%matplotlib inline
+gc = gspread.service_account(filename='pelagic-chalice-365213-f2071a548fdf.json')
+sh = gc.open("UnitySheets")
 
-# define data, and change list to array
+
+def model(a, b, x):
+    return a * x + b
+
+
+def loss_function(a, b, x, y):
+    num = len(x)
+    prediction = model(a, b, x)
+    return (0.5/num)*(np.square(prediction-y)).sum()
+
+
+def optimize(a, b, x, y):
+    num = len(x)
+    prediction = model(a, b, x)
+    da = (1.0/num) * ((prediction - y)*x).sum()
+    db = (1.0/num) * ((prediction - y).sum())
+    a = a - Lr*da
+    b = b - Lr*db
+    return a, b
+
+
+def iterate(a, b, x, y, times):
+    for i in range(times):
+        a, b = optimize(a, b, x, y)
+    return a, b
+
+
 x = [3,21,22,34,54,34,55,67,89,99]
 x = np.array(x)
 y = [2,22,24,65,79,82,55,130,150,199]
 y = np.array(y)
+a = np.random.rand(1)
+b = np.random.rand(1)
+Lr = 0.000001
+testing_n = [1, 2, 3, 4, 5, 10000]
+i = 1
+for n in testing_n:
+    a, b = iterate(a, b, x, y, n)
+    prediction = model(a, b, x)
+    loss = loss_function(a, b, x, y)
+    print(n, a, b, loss)
+    sh.sheet1.update(('A' + str(i)), n)
+    sh.sheet1.update(('B' + str(i)), str(a))
+    sh.sheet1.update(('C' + str(i)), str(b))
+    sh.sheet1.update(('D' + str(i)), str(loss))
+    i += 1
 
-#Show the effect of a scatter plot
-plt.scatter(x,y)
-
+testing_Lr = [0.00001, 0.0001, 0.001]
+for lr in testing_Lr:
+    Lr = lr
+    a, b = iterate(a, b, x, y, 500)
+    prediction = model(a, b, x)
+    loss = loss_function(a, b, x, y)
+    print(lr, a, b, loss)
+    sh.sheet1.update(('A' + str(i)), lr)
+    sh.sheet1.update(('B' + str(i)), str(a))
+    sh.sheet1.update(('C' + str(i)), str(b))
+    sh.sheet1.update(('D' + str(i)), str(loss))
+    i += 1
 ```
-
+![image](https://user-images.githubusercontent.com/103726508/195174891-519605eb-2269-47eb-be90-0ac835445cd7.png)
 
 
 ## Задание 3
-### Изучить код на Python и ответить на вопросы:
+### Самостоятельно разработать сценарий воспроизведения звукового
+сопровождения в Unity в зависимости от изменения считанных данных в задании 2
+
 
 
 ## Выводы
