@@ -64,6 +64,10 @@ Agent’a.
 
 Создан проект в Unity:
 ![image](https://user-images.githubusercontent.com/103726508/201183065-17c67fcf-14a0-45b2-8c6a-af599bff7606.png)
+Написан код:
+![image](https://user-images.githubusercontent.com/103726508/201184576-5d62cdb0-540b-477d-ba66-439811ce3ad7.png)
+![image](https://user-images.githubusercontent.com/103726508/201184598-a7e28295-1b24-406c-86ab-6be24a48bff1.png)
+
 
 
 
