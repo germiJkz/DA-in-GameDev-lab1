@@ -69,6 +69,9 @@ Agent’a.
 ![image](https://user-images.githubusercontent.com/103726508/204106805-9f7b6e62-937b-41ef-9d5c-ab0c8594270b.png)
 
 ![image](https://user-images.githubusercontent.com/103726508/204106773-5aaddfc4-a2ce-4d34-b91e-2428537ae4e1.png)
+![image](https://user-images.githubusercontent.com/103726508/204106896-8a476e07-8e9a-4ab3-9eae-6fa18137e65a.png)
+![image](https://user-images.githubusercontent.com/103726508/204106987-8e9f541c-4388-4e83-bb35-fe6ad1d27ae3.png)
+
 
 Создан проект в Unity:
 ![image](https://user-images.githubusercontent.com/103726508/201183065-17c67fcf-14a0-45b2-8c6a-af599bff7606.png)
