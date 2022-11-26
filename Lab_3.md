@@ -7,7 +7,7 @@
 | Задание | Выполнение | Баллы |
 | ------ | ------ | ------ |
 | Задание 1 | * | 60 |
-| Задание 2 | # | 20 |
+| Задание 2 | * | 20 |
 | Задание 3 | # | 20 |
 
 знак "*" - задание выполнено; знак "#" - задание не выполнено;
@@ -61,6 +61,14 @@ Agent’a.
 симуляцию сцены и наблюдайте за результатом обучения модели.
  - После завершения обучения проверьте работу модели.
  - Сделайте выводы.
+
+
+
+![image](https://user-images.githubusercontent.com/103726508/204106783-0e4aea20-2d40-4302-9ac5-fb6cb49fcaae.png)
+![image](https://user-images.githubusercontent.com/103726508/204106793-e7d129b8-a7a0-4a23-8e7f-b49a5acec8bc.png)
+![image](https://user-images.githubusercontent.com/103726508/204106805-9f7b6e62-937b-41ef-9d5c-ab0c8594270b.png)
+
+![image](https://user-images.githubusercontent.com/103726508/204106773-5aaddfc4-a2ce-4d34-b91e-2428537ae4e1.png)
 
 Создан проект в Unity:
 ![image](https://user-images.githubusercontent.com/103726508/201183065-17c67fcf-14a0-45b2-8c6a-af599bff7606.png)
