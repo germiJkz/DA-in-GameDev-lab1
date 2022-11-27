@@ -67,11 +67,14 @@ Agent’a.
 ![image](https://user-images.githubusercontent.com/103726508/204106783-0e4aea20-2d40-4302-9ac5-fb6cb49fcaae.png)
 ![image](https://user-images.githubusercontent.com/103726508/204106793-e7d129b8-a7a0-4a23-8e7f-b49a5acec8bc.png)
 ![image](https://user-images.githubusercontent.com/103726508/204106805-9f7b6e62-937b-41ef-9d5c-ab0c8594270b.png)
+
 В Unity был создан проект:
 ![image](https://user-images.githubusercontent.com/103726508/204106773-5aaddfc4-a2ce-4d34-b91e-2428537ae4e1.png)
+
 Написан код:
 ![image](https://user-images.githubusercontent.com/103726508/201184576-5d62cdb0-540b-477d-ba66-439811ce3ad7.png)
 ![image](https://user-images.githubusercontent.com/103726508/201184598-a7e28295-1b24-406c-86ab-6be24a48bff1.png)
+
 Было начато обучение:
 ![image](https://user-images.githubusercontent.com/103726508/204106987-8e9f541c-4388-4e83-bb35-fe6ad1d27ae3.png)
 ![image](https://user-images.githubusercontent.com/103726508/204148572-2944a2db-8068-40ca-9af6-85bde6fd11f9.png)
@@ -86,8 +89,10 @@ Agent’a.
 ![image](https://user-images.githubusercontent.com/103726508/204150494-626c9b20-55d5-4854-9010-7b7e8323434a.png)
 ![image](https://user-images.githubusercontent.com/103726508/204150553-f2b90bd4-b6fc-4e34-8b1d-ddbae5a6941d.png)
 ![image](https://user-images.githubusercontent.com/103726508/204150669-b581ee36-bc88-4920-8ab2-16c1571ea7cf.png)
-![очень короткий](https://user-images.githubusercontent.com/103726508/204151843-91b61775-1cb2-40e4-af9e-82072978d8e2.gif)
 
+После завершения обучения, полученную модель поведения присвоили одному из шаров(остальные скрыли):
+![очень короткий](https://user-images.githubusercontent.com/103726508/204151843-91b61775-1cb2-40e4-af9e-82072978d8e2.gif)
+Видно, что обучение прошло хорошо, шарик четко катится в кубу, хоть иногда и падает с площадки.
 
 ## Задание 2
 
