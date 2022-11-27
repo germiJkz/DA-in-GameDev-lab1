@@ -63,38 +63,28 @@ Agent’a.
  - Сделайте выводы.
 
 
-
+Было создано рабочее простанство и подключены соответсвующие библиотеки:
 ![image](https://user-images.githubusercontent.com/103726508/204106783-0e4aea20-2d40-4302-9ac5-fb6cb49fcaae.png)
 ![image](https://user-images.githubusercontent.com/103726508/204106793-e7d129b8-a7a0-4a23-8e7f-b49a5acec8bc.png)
 ![image](https://user-images.githubusercontent.com/103726508/204106805-9f7b6e62-937b-41ef-9d5c-ab0c8594270b.png)
-
-![image](https://user-images.githubusercontent.com/103726508/204106773-5aaddfc4-a2ce-4d34-b91e-2428537ae4e1.png)
+В Unity был создан проект:
 ![image](https://user-images.githubusercontent.com/103726508/204106896-8a476e07-8e9a-4ab3-9eae-6fa18137e65a.png)
+Написан код:
+![image](https://user-images.githubusercontent.com/103726508/201184576-5d62cdb0-540b-477d-ba66-439811ce3ad7.png)
+![image](https://user-images.githubusercontent.com/103726508/201184598-a7e28295-1b24-406c-86ab-6be24a48bff1.png)
+Было начато обучение:
 ![image](https://user-images.githubusercontent.com/103726508/204106987-8e9f541c-4388-4e83-bb35-fe6ad1d27ae3.png)
 ![image](https://user-images.githubusercontent.com/103726508/204148572-2944a2db-8068-40ca-9af6-85bde6fd11f9.png)
 ![image](https://user-images.githubusercontent.com/103726508/204148845-75d186c2-400c-42ce-828b-88e245be5f43.png)
+Но один шар обучается очень долго, поэтому количество площадок было постепенно увеличено до 64:
 ![image](https://user-images.githubusercontent.com/103726508/204149517-04c66329-1793-49ee-8352-6449c67d29a0.png)
 ![image](https://user-images.githubusercontent.com/103726508/204149771-91df2911-af2c-48b7-9870-2d4392c6eff5.png)
 ![image](https://user-images.githubusercontent.com/103726508/204150250-b4851d05-2765-4b49-b032-8faa9dce803d.png)
 ![image](https://user-images.githubusercontent.com/103726508/204150494-626c9b20-55d5-4854-9010-7b7e8323434a.png)
+На скринах видно, что все они обучаются:
 ![image](https://user-images.githubusercontent.com/103726508/204150553-f2b90bd4-b6fc-4e34-8b1d-ddbae5a6941d.png)
 ![image](https://user-images.githubusercontent.com/103726508/204150669-b581ee36-bc88-4920-8ab2-16c1571ea7cf.png)
 ![очень короткий](https://user-images.githubusercontent.com/103726508/204151843-91b61775-1cb2-40e4-af9e-82072978d8e2.gif)
-
-
-
-
-
-
-Создан проект в Unity:
-![image](https://user-images.githubusercontent.com/103726508/201183065-17c67fcf-14a0-45b2-8c6a-af599bff7606.png)
-Написан код:
-![image](https://user-images.githubusercontent.com/103726508/201184576-5d62cdb0-540b-477d-ba66-439811ce3ad7.png)
-![image](https://user-images.githubusercontent.com/103726508/201184598-a7e28295-1b24-406c-86ab-6be24a48bff1.png)
-
-
-
-
 
 
 ## Задание 2
@@ -103,7 +93,7 @@ Agent’a.
 нейронной сети, доступного в папке с файлами проекта по ссылке. Самостоятельно
 найдите информацию о компонентах Decision Requester, Behavior Parameters,
 добавленных на сфере.
-![image](https://user-images.githubusercontent.com/103726508/204102148-f4be934f-bfcd-42ac-920d-d1ba301981e3.png)
+![image](https://user-images.githubusercontent.com/103726508/204106773-5aaddfc4-a2ce-4d34-b91e-2428537ae4e1.png)
 
 
 behaviors: описание поведения объекта
