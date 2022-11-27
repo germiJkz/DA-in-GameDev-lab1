@@ -79,6 +79,7 @@ Agent’a.
 ![image](https://user-images.githubusercontent.com/103726508/204150494-626c9b20-55d5-4854-9010-7b7e8323434a.png)
 ![image](https://user-images.githubusercontent.com/103726508/204150553-f2b90bd4-b6fc-4e34-8b1d-ddbae5a6941d.png)
 ![image](https://user-images.githubusercontent.com/103726508/204150669-b581ee36-bc88-4920-8ab2-16c1571ea7cf.png)
+![очень короткий](https://user-images.githubusercontent.com/103726508/204151843-91b61775-1cb2-40e4-af9e-82072978d8e2.gif)
 
 
 
