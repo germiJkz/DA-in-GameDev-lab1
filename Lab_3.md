@@ -162,6 +162,12 @@ Behavior Parameters: компонент, выполняющий функции �
 Был создан соответствующий проект в Unity:
 ![image](https://user-images.githubusercontent.com/103726508/204352554-d74afdf1-8ecd-4685-90ae-0935821d372d.png)
 
+Аналогично 1 заданию было начато обучение:
+![image](https://user-images.githubusercontent.com/103726508/204376681-499e0478-aab3-4b3e-8b81-ecf408077f5c.png)
+![image](https://user-images.githubusercontent.com/103726508/204378128-3d64cf33-c80e-4afc-bfd6-98910d9d92ae.png)
+
+
+
 
 ## Выводы
 
