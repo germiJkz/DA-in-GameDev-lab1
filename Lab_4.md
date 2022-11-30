@@ -34,7 +34,7 @@
 ![image](https://user-images.githubusercontent.com/103726508/204795352-5d0c62a2-5527-4470-9b9b-6f9f4f388dc7.png)
 
 
-```
+``` C#
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -135,7 +135,6 @@ public class Perceptron : MonoBehaviour {
 		
 	}
 }
-
 ```
 
 
