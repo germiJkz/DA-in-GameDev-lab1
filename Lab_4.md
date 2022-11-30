@@ -153,13 +153,16 @@ public class Perceptron : MonoBehaviour {
 Для начала зададим 1 обучающую эпоху и посмотрим на результаты наших тестов:
 
 ![image](https://user-images.githubusercontent.com/103726508/204798461-4e2f9abc-3203-41c2-bf20-ed249b3057d4.png)
+
 Значение Total Error отвечает за обучение перцептрона: если оно отлично от нуля, то модель не обучилась, если же нуль - тогда модель успешно обучилась. При первой эпохе обучения значение Total Error = 2, и из результатов тестов видно, что значения отличны от истины: в первом случае, ответ 1, хотя должен быть 0.
 Теперь зададим 4 эпохи обучения:
 
 ![image](https://user-images.githubusercontent.com/103726508/204799665-b81830dc-a594-4957-b11d-7a184eec7f75.png)
+
 Total Error всё ещё не 0. Увеличим кол-во эпох до 5:
 
 ![image](https://user-images.githubusercontent.com/103726508/204801018-5e8bb66d-2b68-4a72-9c47-ed5e515b6291.png)
+
 Total Error = 0. Перцептрон обучился.
 Более подробную статистику можно посмотреть в 2 задании.
 
@@ -174,9 +177,11 @@ Total Error = 0. Перцептрон обучился.
 Введём эти значения в скрипт:
 
 ![image](https://user-images.githubusercontent.com/103726508/204801890-b4842402-0500-470f-8c52-52055b41ee7b.png)
+
 Для начала зададим 1 обучающую эпоху и посмотрим на результаты наших тестов:
 
 ![image](https://user-images.githubusercontent.com/103726508/204806969-0eecd291-a6ed-4058-92c6-efc4dfe406db.png)
+
 Только на 8 эпохе обучения Total Error стабильно из раза в раз равен 0:
 
 ![image](https://user-images.githubusercontent.com/103726508/204810302-b3554d00-7080-4153-bf16-6fe8e512c96e.png)
@@ -191,11 +196,16 @@ Total Error = 0. Перцептрон обучился.
 
 Введём эти значения в скрипт:
 
-![image](https://user-images.githubusercontent.com/103726508/204815746-fa49c094-661a-4ec8-bd6c-a44b611c259d.png)
+![image](https://user-images.githubusercontent.com/103726508/204819000-91c5e321-ed36-406d-80ab-948284ea010f.png)
+
 Для начала зададим 1 обучающую эпоху и посмотрим на результаты наших тестов:
 
 ![image](https://user-images.githubusercontent.com/103726508/204815664-1b9e8352-92dc-4187-b649-2a5b40810468.png)
-Только на 8 эпохе обучения Total Error стабильно из раза в раз равен 0:
+
+Только на 7 эпохе обучения Total Error стабильно из раза в раз равен 0:
+
+![image](https://user-images.githubusercontent.com/103726508/204818936-b6ba8135-c464-48c7-8192-44882139450c.png)
+
 
 ### Логическая операция XOR:
 | A | B | A XOR B|
@@ -208,6 +218,7 @@ Total Error = 0. Перцептрон обучился.
 Введём эти значения в скрипт:
 
 ![image](https://user-images.githubusercontent.com/103726508/204811536-358292d8-3136-47bf-a200-7ff76d9128d8.png)
+
 Для начала зададим 1 обучающую эпоху и посмотрим на результаты наших тестов:
 
 ![image](https://user-images.githubusercontent.com/103726508/204811402-260aa19c-8416-475b-8c11-be5f884af3b9.png)
