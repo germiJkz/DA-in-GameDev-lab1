@@ -39,10 +39,13 @@ mlagents-learn Economic.yaml --run-id=Economic --force
 ```
 Далее запустить сцену в Unity.
 
+![image](https://user-images.githubusercontent.com/103726508/204905889-f61b85d4-386d-4902-88d4-71058198f032.png)
+
 Данный вывод говорит о том, что обучение прошло успешно и результат записан в указаный файл.
 
-![image](https://user-images.githubusercontent.com/103726508/204905889-f61b85d4-386d-4902-88d4-71058198f032.png)
 ![image](https://user-images.githubusercontent.com/103726508/204906161-a125a319-bec0-4c8a-a8e9-e9b993b49064.png)
+
+
 ![image](https://user-images.githubusercontent.com/103726508/204906905-1eaafb22-3955-4cde-93d0-742bbae55372.png)
 ![image](https://user-images.githubusercontent.com/103726508/204909031-d3ce3339-48d1-4cff-b42e-3bc9725ca928.png)
 
