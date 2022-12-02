@@ -88,6 +88,15 @@ behaviors:
 В следующих запусках мы будем менять значение одного из параметров и смотреть, как он будет влиять на обучение модели.
 
 
+Поменяем параметр Strength на 2.0 (было 1.0) и запишем это в Economic(1):
+
+![image](https://user-images.githubusercontent.com/103726508/205293738-a406ec15-75ad-427f-bd34-6cb2fa620168.png)
+
+Вот такие графики вывелись в TensorBoard:
+![image](https://user-images.githubusercontent.com/103726508/205294362-b5e5adfb-0fd9-466a-be4b-600b122f8038.png)
+
+
+
 
 ## Задание 2
 Опишите результаты, выведенные в TensorBoard.
