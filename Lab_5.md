@@ -47,8 +47,45 @@ mlagents-learn Economic.yaml --run-id=Economic --force
 
 
 ![image](https://user-images.githubusercontent.com/103726508/204906905-1eaafb22-3955-4cde-93d0-742bbae55372.png)
+
+Вот такие результаты можно будет увидеть после выполнения команды, перейдя на локальный хост:
+
 ![image](https://user-images.githubusercontent.com/103726508/204909031-d3ce3339-48d1-4cff-b42e-3bc9725ca928.png)
 
+В первом запуске использовались следующие параметры в .yaml файле:
+``` py
+behaviors:
+  Economic:
+    trainer_type: ppo
+    hyperparameters:
+      batch_size: 1024
+      buffer_size: 10240
+      learning_rate: 1.0e-4
+      learning_rate_schedule: linear
+      beta: 1.0e-2
+      epsilon: 0.2
+      lambd: 0.95
+      num_epoch: 3      
+    network_settings:
+      normalize: false
+      hidden_units: 128
+      num_layers: 2
+    reward_signals:
+      extrinsic:
+        gamma: 0.99
+        strength: 1.0
+    checkpoint_interval: 500000
+    max_steps: 750000
+    time_horizon: 64
+    summary_freq: 5000
+    self_play:
+      save_steps: 20000
+      team_change: 100000
+      swap_steps: 10000
+      play_against_latest_model_ratio: 0.5
+      window: 10
+```
+В следующих запусках мы будем менять значение одного из параметров и смотреть, как он будет влиять на обучение модели.
 
 
 
